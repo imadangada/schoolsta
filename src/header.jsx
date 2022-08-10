@@ -41,11 +41,11 @@ function Header() {
                 </div>
               </div>
               <div className="hidden space-x-8 lg:mx-48 align-center md:flex md:ml-10">
-                {navigation.map((item) => (
+                {/* {navigation.map((item) => (
                   <a key={item.name} href={item.href} className="text-base font-medium text-black hover:text-gray-300">
                     {item.name}
                   </a>
-                ))}
+                ))} */}
               </div>
             </div>
             <div className="hidden md:flex md:items-center md:space-x-6">
@@ -90,7 +90,7 @@ function Header() {
               </div>
               <div className="pt-5 pb-6">
                 <div className="px-2 space-y-1">
-                  {navigation.map((item) => (
+                  {/* {navigation.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}
@@ -98,7 +98,7 @@ function Header() {
                     >
                       {item.name}
                     </a>
-                  ))}
+                  ))} */}
                 </div>
                 <div className="mt-6 px-5">
                   <a
@@ -141,22 +141,22 @@ function Header() {
                     <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">
                       <div className="sm:flex">
                         <div className="min-w-0 flex-2">
-                        <button
+                        <a href="https://schoolsta.com/admission/user/login.php"></a><button
                             type="submit"
                             className="block w-full py-3 px-4 rounded-md shadow bg-violet-900 text-indigo-100 font-medium
                              hover:bg-indigo-50 hover:border-violet-900 hover:text-violet-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-300 focus:ring-offset-gray-900"
                           >
-                            Explore Demo 
+                            Admission Portal Demo 
                           </button>
                         </div>
                         <div className="mt-3 sm:mt-0 sm:ml-3">
-                          <button
+                          <a href="mailto:info@schoolsta.com"><button
                             type="submit"
                             className="block w-full py-3 px-4 rounded-md shadow bg-indigo-50 text-violet-900
                             border-2 border-violet-900 font-medium hover:bg-violet-900 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-100 focus:ring-offset-gray-900"
                           >
                             Request For Your School
-                          </button>
+                          </button></a>
                         </div>
                       </div>
                      
