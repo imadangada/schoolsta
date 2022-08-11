@@ -33,7 +33,7 @@ function Customers() {
                   other agencies to launch their school online and their student can access anywhere.
                   </p>
                   <div className='mt-6'></div>
-                  <button className='p-2 bg-indigo-50 text-violet-900 border border-violet-900 hover:bg-violet-900 hover:text-indigo-100'>
+                  <button className='py-3 px-2 rounded-lg bg-indigo-50 text-violet-900 border border-violet-900 hover:bg-violet-900 hover:text-indigo-100'>
                    Coming soon
                   </button>
                      

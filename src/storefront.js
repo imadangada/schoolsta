@@ -34,9 +34,12 @@ function Storefront() {
                    staffs, various records etc
                   </p>
                   <div className='mt-6'></div>
-                  <button className='py-2 w-24 bg-indigo-50 text-violet-900 border border-violet-900 hover:bg-violet-900 hover:text-indigo-100'>
-                    Try demo
-                  </button>
+                  <a href='https://schoolsta.com/admission/user/login.php'><button className='py-3 px-2 mx-2 rounded-lg w-70 bg-indigo-50 text-violet-900 border border-violet-900 hover:bg-violet-900 hover:text-indigo-100'>
+                    Admission Portal Demo
+                  </button></a>
+                  <a href='#'><button className='py-3 px-2 rounded-lg w-70 bg-indigo-50 text-violet-900 border border-violet-900 hover:bg-violet-900 hover:text-indigo-100'>
+                    SRMS Demo
+                  </button></a>
                      
                 </div>
               </div>

@@ -18,7 +18,7 @@ function Pwa() {
                   SchoolSta has everything your school needs, all in one place.
                   </p>
                   <div className='mt-6'></div>
-                  <button className='py-2 px-2 w-30 bg-indigo-50 text-violet-900 border border-violet-900 hover:bg-violet-900 hover:text-indigo-50'>
+                  <button className='py-3 px-2 w-30 rounded-lg bg-indigo-50 text-violet-900 border border-violet-900 hover:bg-violet-900 hover:text-indigo-50'>
                     Coming soon
                   </button>
                   <p className="mt-8 text-sm text-white uppercase tracking-wide font-semibold sm:mt-10"></p>
